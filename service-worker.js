@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/material-sense/precache-manifest.cc72047b2ca46d5161e9bf9a4e0567e8.js"
+  "/stock1/precache-manifest.374bf4b2841fd7c6532b19cb1e3aad62.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/material-sense/index.html", {
+workbox.routing.registerNavigationRoute("/stock1/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
